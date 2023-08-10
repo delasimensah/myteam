@@ -69,7 +69,7 @@ const Home = () => {
 
         <div className="grid gap-5 lg:mb-36 md:gap-10 lg:grid-cols-2">
           <div className="flex items-center justify-center">
-            <Fade left>
+            <Fade distance="40px" left>
               <h1 className="w-2/3 md:w-1/2 lg:w-auto heading-1 lg:text-left lg:text-6xl xl:text-8xl">
                 Find the best <span className="text-lightCoral">talent</span>
               </h1>
@@ -104,7 +104,7 @@ const Home = () => {
             </h1>
           </div>
 
-          <Fade left cascade>
+          <Fade distance="40px" left cascade>
             <div className="grid gap-10">
               {benefits.map((benefit, idx) => {
                 return (
@@ -149,7 +149,7 @@ const Home = () => {
             <span className="text-rapBlue">success stories.</span>
           </h1>
 
-          <Fade cascade top>
+          <Fade distance="10px" cascade top>
             <div className="grid gap-16 xl:grid-cols-3">
               {stories.map((story, idx) => {
                 return (

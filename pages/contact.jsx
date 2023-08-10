@@ -44,7 +44,7 @@ const Contact = () => {
             Ask us about
           </h2>
 
-          <Fade left cascade>
+          <Fade distance="40px" left cascade>
             <div className="grid gap-5">
               {benefits.map((benefit, idx) => {
                 return (
